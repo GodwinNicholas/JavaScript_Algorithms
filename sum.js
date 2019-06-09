@@ -12,4 +12,4 @@ const sum2 = arr => arr.reduce((e, total) => total += e, 0);
 
 
 // call function
-sum2([1, 2, 3, 4])
+console.log(sum2([1, 2, 3, 4]))
