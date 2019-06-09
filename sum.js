@@ -1,12 +1,15 @@
 // returns sum of numbers in an array
 
-const sum = arr => {
-    // validate param
-    if (typeof (arr) != Array) throw (new Error("function only accepts array"));
-    total = 0;
-    for (i of arr) total += i;
-    return total
+// solution 1 with 
+const sum1 = arr => {
+    let total = 0;
+    arr.forEach(e => total += e);
+    return total;
 }
 
+// solution two
+const sum2 = arr => arr.reduce((e, total) => total += e, 0);
 
-sum([1, 2, 3, 4])
+
+// call function
+sum2([1, 2, 3, 4])

@@ -10,4 +10,5 @@ const range = (start = 0, stop, step = 1) => {
     return newList;
 }
 
+// call function
 range(20);

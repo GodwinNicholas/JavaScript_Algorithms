@@ -2,4 +2,5 @@
 
 const isPalindrome = str => str.split('').reverse().join('') == str
 
+// call function
 isPalindrome("madam");
