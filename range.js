@@ -10,4 +10,4 @@ const range = (start = 0, stop, step = 1) => {
     return newList;
 }
 
-list(20);
+range(20);

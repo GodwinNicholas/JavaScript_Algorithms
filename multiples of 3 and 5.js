@@ -19,9 +19,6 @@ const sum = arr => {
     return total
 }
 
-
-
-
 // returns the sum of all the natural numbers below given
 //  param that are multiples of 3 and 5
 const multipleOf = num => sum(range(num).filter(e => e % 3 == 0 || e % 5 == 0));
